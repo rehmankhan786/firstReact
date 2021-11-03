@@ -1,0 +1,49 @@
+.main_div {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    position: relative;
+}
+
+.span-blue {
+    color: rgb(88, 189, 230);
+}
+
+.my_info div p span {
+    color: grey;
+    float: right;
+}
+
+.my_info {
+    margin-top: 100px;
+}
+
+.btn {
+    transition: all 0.2s;
+    border-radius: 40px;
+    width: 120px;
+}
+
+.explore {
+    text-align: center;
+    margin-top: 45px;
+    border-radius: 40px;
+}
+
+._photo img {
+    width: 100%;
+    margin-top: 10%;
+    position: relative;
+    right: 10%;
+    top: 10px;
+    animation: animate 3s alternate-reverse infinite;
+}
+
+@keyframes animate {
+    0% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(10px);
+    }
+}

@@ -1,0 +1,25 @@
+.contact_inside {
+    margin-left: 30%;
+}
+
+.contact_inside form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.contact_inside form .form-row {
+    margin: 5px 0px;
+}
+
+.contact_inside form .form-group {
+    margin: 5px 0px
+}
+
+.form_head {
+    position: relative;
+    left: auto;
+    right: auto;
+    margin: 5px 20%;
+    color: steelblue;
+}
