@@ -1,0 +1,15 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    min-height: 100vh;
+}
+
+body {
+    min-height: 100%;
+    /* border: 2px solid greenyellow; */
+    width: 99.5vw;
+    float: right;
+}
